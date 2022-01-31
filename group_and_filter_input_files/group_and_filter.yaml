@@ -1,0 +1,31 @@
+# group_and_fillter.yaml
+# This file contains run values 
+
+group_set_columns:
+    Set1:
+        - "[1] 331 SWATH.htrms.PG.Quantity.cal1"    
+        - "[2] 339 SWATH.htrms.PG.Quantity.cal1"
+        - "[3] 378 SWATH.htrms.PG.Quantity.cal1"   
+        - "[4] 403 SWATH.htrms.PG.Quantity.cal1"
+        - "[5] 412 SWATH.htrms.PG.Quantity.cal1"
+	- "[6] 415 SWATH.htrms.PG.Quantity.cal1"
+	- "[7] 422 SWATH_IR.htrms.PG.Quantity.cal1"
+	- "[8] 423 SWATH.htrms.PG.Quantity.cal1"
+	- "[9] 424 SWATH.htrms.PG.Quantity.cal1"
+    Set2: 
+        - "[10] 425 SWATH.htrms.PG.Quantity.cal1"   
+        - "[11] 434 SWATH.htrms.PG.Quantity.cal1"    
+        - "[12] 436 SWATH.htrms.PG.Quantity.cal1"   
+        - "[13] 437 SWATH.htrms.PG.Quantity.cal1"
+    Set3:
+        - "[50] 542 SWATH.htrms.PG.Quantity.cal1"
+        - "[51] 543_SWATH.htrms.PG.Quantity.cal1"
+        - "[52] 545_SWATH.htrms.PG.Quantity.cal1"
+        - "[53] 546 SWATH.htrms.PG.Quantity.cal1"
+rules:
+    # min_replicates per group
+    min_replicates: 3
+target_whitelist_row_num:
+    - 2
+    - 3
+    - 18
